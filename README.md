@@ -341,7 +341,7 @@ SonarQube – Quality Gate Status:
 
 <img width="961" height="585" alt="image" src="https://github.com/user-attachments/assets/100c34c0-25c1-4a73-89ad-41499544eb95" />
 
-
+--------------------------------------------------------------------------------------------------------------
 
 <img width="961" height="300" alt="image" src="https://github.com/user-attachments/assets/9e483b5c-07e7-4140-a3d8-5e29f02b77fc" />
 
@@ -353,7 +353,7 @@ SonarQube – Quality Gate Status:
 
 <img width="937" height="561" alt="image" src="https://github.com/user-attachments/assets/eaa9fb46-dcc5-4508-af31-13c99e9984cf" />
 
-
+---------------------------------------------------------------------------------------------------------------------
 
 **Trivy Image Scan:**
 
