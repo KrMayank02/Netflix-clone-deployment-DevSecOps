@@ -301,54 +301,95 @@ Under Jenkins- install Kubernetes Plugins
 
 <img width="921" height="475" alt="image" src="https://github.com/user-attachments/assets/af9128cc-a410-46b6-813a-e7117666c1d6" />
 
+-----------------------------------------------------------------------------------------------------------------------
+
+<img width="962" height="488" alt="image" src="https://github.com/user-attachments/assets/8e6440ee-bc97-4859-9236-af677a2693b7" />
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Deploy Netflix clone app in Kubernetes cluster and Access the Netflix-clone application on the browser.
+
+Run the fully integrated Jenkins Pipeline Script to deploy app and run security scans.
+
+the Job build was completed with SUCCESS message. The complete Pipeline with all the stages got Passed:
+
+<img width="570" height="451" alt="image" src="https://github.com/user-attachments/assets/9b9abb9a-a612-4a89-8101-c4325ee76407" />
+
+--------------------------------------------------------------------------------------
+
+<img width="577" height="490" alt="image" src="https://github.com/user-attachments/assets/ea0b42ae-49f1-4a33-93b4-95a82ee859dd" />
+
+----------------------------------------------------------------------------------------
+
+Email Notification sent with SUCCESS msg and Trivy Scan logs attached:
+
+<img width="712" height="490" alt="image" src="https://github.com/user-attachments/assets/ea9c222f-eb19-422b-b664-e0f18abb7cf7" />
+
+-------------------------------------------------------------------------------------------------------
+
+OWASP Dependency Check Results:
+
+<img width="962" height="493" alt="image" src="https://github.com/user-attachments/assets/19fe4d11-d2bb-48bc-9a24-57e7aedd11e0" />
+
+----------------------------------------------------------------------------------------------------------
+
+<img width="943" height="539" alt="image" src="https://github.com/user-attachments/assets/4b8acbf6-06b7-45a2-b5e4-9044f4a9e731" />
+
+--------------------------------------------------------------------------------------------------------------
+
+SonarQube – Quality Gate Status:
+
+<img width="961" height="585" alt="image" src="https://github.com/user-attachments/assets/100c34c0-25c1-4a73-89ad-41499544eb95" />
 
 
 
+<img width="961" height="300" alt="image" src="https://github.com/user-attachments/assets/9e483b5c-07e7-4140-a3d8-5e29f02b77fc" />
+
+
+--------------------------------------------------------------------------------------------------------------
+
+**Trivy File System Scan:**
+
+
+<img width="937" height="561" alt="image" src="https://github.com/user-attachments/assets/eaa9fb46-dcc5-4508-af31-13c99e9984cf" />
 
 
 
+**Trivy Image Scan:**
 
 
+<img width="962" height="438" alt="image" src="https://github.com/user-attachments/assets/098529f8-64fc-4f3d-ad41-82cad72a1d26" />
 
+----------------------------------------------------------------------------------------------------------------------------------
 
+Monitor & Visualize System Metrics of Jenkins Machine on Grafana Dashboard via Prometheus Data source:
 
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/5a7e5541-dd53-4bf9-9221-c7a8ba55357a" />
 
+-----------------------------------------------------------------------------------------------------------------------------------
 
+Monitor & Visualize System Metrics of Kubernetes-Master Node on Grafana Dashboard via Prometheus Data source:
 
+<img width="975" height="504" alt="image" src="https://github.com/user-attachments/assets/6a010105-e0b5-4e35-9b30-0c12dad32bd0" />
 
+------------------------------------------------------------------------------------------------------------------------------------
 
+Monitor & Visualize System Metrics of Kubernetes-Worker Node on Grafana Dashboard via Prometheus Data source:
 
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/723e9a94-c503-4969-a465-8c568d0a142e" />
 
+-----------------------------------------------------------------------------------------------------------------------------------
 
+Netflix-clone Application Deployed & Running on Kubernetes Cluster:
 
+http://54.145.47.178:30007
 
+<img width="975" height="589" alt="image" src="https://github.com/user-attachments/assets/0ea5d7e6-708a-4b31-897d-5b831da34d00" />
 
+-----------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Hence, The Project implemented a DevSecOps CI/CD pipeline for deploying a Netflix clone application, by incorporating tools like Jenkins, Docker, and Kubernetes for automated deployment.
+Security tools like SonarQube, Trivy and Owasp dependency check were used for Source Code Analysis, File system scan & image scan and Dependencies check for any vulnerabilities. Additionally for Monitoring of system metrics – Prometheus was used and to visualize metrics on Dashboards/graphs/panels – Grafana was used.
+The Project has been completed successfully with modern DevSecOps practices to ensure secure, scalable, and automated deployments.**
 
 
