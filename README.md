@@ -271,6 +271,42 @@ Docker Hub Repository:
 
 -------------------------------------------------------------------------------------------------------------------
 
+Deploy the Netflix-clone application in Docker using latest image
+
+<img width="617" height="527" alt="image" src="https://github.com/user-attachments/assets/e90c8e1a-dff2-4250-80b3-4c176966117a" />
+
+------------------------------------------------------------------------------------------------------------------
+
+The “netflix” container is running successfully and is mapped with port 8081 of the ubuntu EC2 machine
+
+<img width="969" height="216" alt="image" src="https://github.com/user-attachments/assets/2eac1590-eddf-4be5-bf77-d8b37cf7c4cd" />
+
+-----------------------------------------------------------------------------------------------------------------
+
+Next, access the Netflix-clone application (running in container) on the browser using below URL: http://3.89.122.32:8081
+
+The Netflix-clone Application is getting opened properly on the browser
+
+<img width="884" height="524" alt="image" src="https://github.com/user-attachments/assets/b9724d76-f0b0-4bc2-b0c4-c419ab065dfe" />
+
+---------------------------------------------------------------------------------------------------------------------
+
+Kubernetes Setup on Ubuntu machine (Master and Worker Node)
+
+<img width="830" height="258" alt="image" src="https://github.com/user-attachments/assets/7180fa4d-e021-4036-bdce-8185805671eb" />
+
+----------------------------------------------------------------------------------------------------------------------
+
+Under Jenkins- install Kubernetes Plugins
+
+<img width="921" height="475" alt="image" src="https://github.com/user-attachments/assets/af9128cc-a410-46b6-813a-e7117666c1d6" />
+
+
+
+
+
+
+
 
 
 
